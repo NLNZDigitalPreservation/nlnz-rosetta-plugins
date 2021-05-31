@@ -1,0 +1,32 @@
+<pl:metadata-config xmlns:pl="http://www.exlibrisgroup.com/Plugins/1.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<pl:pluginTypeName>MigrationToolPlugin</pl:pluginTypeName>
+	<pl:deployName>eBookConvertEnrichmentPlugin</pl:deployName>
+	<pl:className>bin/eBookConvert</pl:className>
+	<pl:initParameters>
+		<fr:x_form xmlns:fr="http://com/exlibris/digitool/common/forms/xmlbeans">
+		</fr:x_form>
+	</pl:initParameters>
+	<pl:description>Warc CDX Indexer for Enrichment</pl:description>
+	<pl:version>1.2</pl:version>
+	<pl:materialType>DIGITAL</pl:materialType>
+	<pl:module>Preservation</pl:module>
+	<pl:generalType>TASK</pl:generalType>
+	<pl:publicApi>N</pl:publicApi>
+	<pl:implType>script</pl:implType>
+	<pl:contactPerson>
+		<contact_info xmlns="http://www.exlibrisgroup.com/Plugins/1.0/">
+			<contactType>admin</contactType>
+			<firstName>National Library</firstName>
+			<lastName>New Zealand</lastName>
+			<telephone1>6444743000</telephone1>
+			<telephone2>8953</telephone2>
+			<email>NDHA.Admin@natlib.govt.nz</email>
+			<address1>Molesworth and Aitken Streets</address1>
+			<address2></address2>
+			<city>Wellington</city>
+			<zipCode>5000</zipCode>
+			<country>New Zealand</country>
+		</contact_info>
+	</pl:contactPerson>
+</pl:metadata-config>
