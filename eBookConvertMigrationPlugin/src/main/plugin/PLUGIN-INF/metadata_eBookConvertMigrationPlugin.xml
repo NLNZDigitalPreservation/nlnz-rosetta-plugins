@@ -1,13 +1,13 @@
 <pl:metadata-config xmlns:pl="http://www.exlibrisgroup.com/Plugins/1.0/"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<pl:pluginTypeName>MigrationToolPlugin</pl:pluginTypeName>
-	<pl:deployName>eBookConvertEnrichmentPlugin</pl:deployName>
+	<pl:deployName>eBookConvertMigrationPlugin</pl:deployName>
 	<pl:className>bin/eBookConvert</pl:className>
 	<pl:initParameters>
 		<fr:x_form xmlns:fr="http://com/exlibris/digitool/common/forms/xmlbeans">
 		</fr:x_form>
 	</pl:initParameters>
-	<pl:description>Warc CDX Indexer for Enrichment</pl:description>
+	<pl:description>EBook Converter for Enrichment</pl:description>
 	<pl:version>1.2</pl:version>
 	<pl:materialType>DIGITAL</pl:materialType>
 	<pl:module>Preservation</pl:module>

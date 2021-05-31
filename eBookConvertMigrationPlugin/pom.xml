@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nz.govt.natlib.ndha.plugin.ebook</groupId>
-	<artifactId>eBookConvertEnrichmentPlugin</artifactId>
+	<artifactId>eBookConvertMigrationPlugin</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0</version>
-	<name>eBookConvertEnrichmentPlugin</name>
+	<name>eBookConvertMigrationPlugin</name>
 	<url>http://maven.apache.org</url>
 	
 	<properties>
@@ -33,7 +33,7 @@
 								<property name="release.dir" value="${project.build.directory}/releaseJAR" />
 								<property name="release.bin.dir" value="${release.dir}/bin" />
 							
-								<property name="final.release.jar.name" value="eBookConvertEnrichmentPlugin.jar" />
+								<property name="final.release.jar.name" value="eBookConvertMigrationPlugin.jar" />
 								<mkdir dir="${release.dir}" />
 								<mkdir dir="${release.bin.dir}" />
 								
