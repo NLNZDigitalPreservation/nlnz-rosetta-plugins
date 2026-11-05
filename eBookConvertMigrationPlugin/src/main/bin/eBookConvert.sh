@@ -32,8 +32,8 @@ out_dir="${!i}"
 echo -e "[INFO] Input file: $in_file"
 echo -e "[INFO] Output directory: $out_dir"
 
-#CONVERT_CMD=/usr/bin/ebook-convert
-CONVERT_CMD=/exlibris/dps/d4_1/system.dir/thirdparty/calibre-3.48.0-x86_64/ebook-convert
+# CONVERT_CMD=/exlibris/dps/d4_1/system.dir/thirdparty/calibre-3.48.0-x86_64/ebook-convert
+CONVERT_CMD=/exlibris/dps/d4_1/product/bin/ebook-convert
 
 echo -e "[INFO] Convert Command: $CONVERT_CMD"
 
